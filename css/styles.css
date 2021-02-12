@@ -23,7 +23,7 @@ ul {
     margin         : 0;
     padding        : 0;
     font-family    : 'Open Sans', sans-serif;
-    display: inline;
+    display        : inline;
 }
 
 li {
@@ -35,7 +35,7 @@ li a {
     text-decoration: none;
     margin         : 10px;
     font-size      : 14px;
-    text-align: center;
+    text-align     : center;
 }
 
 li a:hover {
@@ -43,12 +43,12 @@ li a:hover {
 }
 
 #dot-menu {
-    position: relative;
-    width : 25px;
-    height: 25px;
-    margin-top: -200px;
-    padding: 6px;
-    top: 14px;
+    position     : relative;
+    width        : 25px;
+    height       : 25px;
+    margin-top   : -200px;
+    padding      : 6px;
+    top          : 14px;
     border-radius: 50%;
 }
 
@@ -60,13 +60,13 @@ li a:hover {
     font-size       : 16px;
     background-color: rgba(26, 115, 232, 1.0);
     color           : white;
-    padding: 10px 20px;
-    border-radius: 8px;
+    padding         : 10px 20px;
+    border-radius   : 8px;
 }
 
 .sign-in-button:hover {
     background-color: rgba(26, 115, 232, 0.8);
-    text-decoration: none;
+    text-decoration : none;
 }
 
 main {
@@ -132,4 +132,25 @@ main {
     display        : flex;
     flex-direction : row;
     justify-content: space-evenly;
+}
+
+.nav-footer {
+    width           : 96%;
+    height          : auto;
+    position        : fixed;
+    bottom          : 0;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-between;
+    padding: 15px 80px 15px 30px;
+    background-color: rgba(240, 240, 240, 0.9);
+}
+
+.nav-footer ul li a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#leaf-icon {
+    width : 12px;
+    height: 12px;
 }
